@@ -1,0 +1,734 @@
+body
+{
+    font-family: Lucida console;
+    margin-top: none;
+}
+.menuBar
+{
+    background-color: #a06225;
+    width: 100%;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+.menuBar ul
+{
+display:flex;
+list-style: none;
+list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+
+}
+.menuBar ul li
+{
+    margin-right: 20px;
+    font-style: normal;
+    padding: 10px;
+    padding-left: 3%;
+    
+    
+}
+.menuBar ul li i
+{
+    padding: .5%;
+    
+}
+.menuBar ul li a
+{
+    text-decoration: none;
+    text-transform: none;
+    transform: matrix(10%);
+    color: #fff;
+    padding: .5px;
+    padding-left: 4px;
+    text-decoration: none;
+    color: white;
+    position: relative;
+    
+}
+
+.menuBar ul li a:hover::after
+{ 
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: #fffcfc;
+    bottom: -5px;
+    left: 0; 
+    transition: .9s;
+    transform-box:content-box;
+    transform-style:unset;
+}
+line {
+    position: relative;
+    height: 2px;
+    background-color: #333;
+    width: 0%;
+    transition: width 0.3s ease;
+}
+
+nav ul li:hover {
+  width: 100%;
+}
+.menuBar ul li a img
+{
+    width: 260px;
+    padding-left: .5px;
+    text-align: left;
+}
+.home-img
+{
+    background: url(HOME.jpg);
+    height: 400px;
+    
+}
+.home-img img
+{
+    width: 100%;
+    padding-top:none;
+    padding-bottom: none;
+}
+.home-img h2
+{
+    text-align: center;
+    padding-top: 200px;
+    padding-left: 500px;
+    color:#ffffff;
+    font-weight: bolder;
+}
+.Text
+{
+    padding-top: none; 
+    padding-right: 15px;
+    padding-bottom: 2%;
+    display: flex;
+    height: 20%;
+}
+.text-A
+{
+    background-color: #f1f1f1;
+    width: 170%;
+    padding-bottom:none;
+    color: black;
+}
+.text-A h2
+{
+padding-top: 10%;
+padding-bottom: 1%;
+padding-left: 10%;
+word-spacing: 5px;
+line-height: 30px;
+}
+.Text-B
+{
+    background-color: #fff;
+    width: 170%;
+    padding-bottom: 5%; 
+    color: #000;  
+}
+.Text-B h2
+{
+    padding-top: 3%;
+    padding-bottom: 1%;
+    padding-left: 10%;
+    word-spacing: 5px;
+    line-height: 25px;   
+}
+.Text-B img
+{
+    padding-top:none;
+    padding-bottom: 15%;
+    padding-left: 10%;
+    width: 80px;
+    
+}
+
+.my-Text
+{
+    width: 180%;
+    padding-bottom: 5%;
+    padding-top: none;
+    padding-left: 50px;
+}
+.my-Text h1
+{
+    padding-top: 25%;
+    padding-bottom: 1%;
+    padding-left: 10%;
+    word-spacing: 5px;
+    line-height: 30px; 
+    font-size: xx-large;
+    font-weight: bolder;
+    color: white;
+}
+.my-Text h4
+{
+    color: white;
+    padding-left: 60px;
+}
+.my-Text a h1
+{
+        position: relative;
+        width: 20%;
+        padding: 15px 10px 10px;
+        outline: none;
+        border: none;
+        box-shadow: none;
+        background: transparent;
+        font-size: 1em;
+        letter-spacing: 0.05em;
+        transition: 0.5s;
+        z-index: 10;
+        font-weight: bolder;
+        color: #a06225;
+        background-color: #ffffff;
+}
+.my-Text a h1:Hover
+{
+    background-color: #ce8236;
+    color: #f8c99a;
+    transition: .8s;
+}
+.Text-B h4
+{
+    padding-top: 25%;
+    padding-bottom: 1%;
+    padding-left: 10%;
+    word-spacing: 5px;
+    line-height: 30px;
+}
+.my-Text a
+{
+    
+    font-size: x-large;
+    color: #fffffe;
+    text-decoration: none;
+    
+}
+.my-img
+{
+    
+    width: 170%;
+    padding-bottom: 5%;   
+}
+.my-img img
+{
+width: 90%;
+padding-top: 60px;
+align-items: center;
+height: 90%;
+}
+.Global
+{
+    color: #000;
+    display: flex;
+background-color: #fff;
+padding: auto;
+}
+.Next-container
+{
+    padding-top: 20px;
+    display: flex;
+    height: 400px;
+}
+.the-picture
+{
+    width: 100%;
+}
+.the-picture img
+{
+width: 70%;
+}
+.work-container
+{
+    margin-left: auto;
+    padding-left: none;
+    width: 50%;
+    color: #563d23;
+}
+.work-container b
+{
+   font-weight: bolder;
+   font-size: xx-large;
+}
+.work-container a
+{
+    position: relative;
+    width: 30%;
+    height: 20px;
+    padding: 15px 10px 10px;
+    outline: none;
+    border: none;
+    box-shadow: none;
+    background: transparent;
+    font-size: 1em;
+    letter-spacing: 0.05em;
+    transition: 0.5s;
+    z-index: 10;
+    font-weight: bolder;
+    color: white;
+    background-color: #563d23; 
+    text-decoration: none;
+}
+.work-container a:hover
+{
+    color: #eed1b4;
+    background-color: #ce8236;
+}
+.last-png
+{
+ background-image: url(Last.jpg);
+ width: 100%;
+ padding-top: 350px;
+ margin-top: 50px;
+}
+.last-png a
+{
+    text-decoration: none;
+    color: white;
+    background:#ce8236;
+    border-radius: 20px 20px;
+    border: 80px;
+    border-width: 20px;
+    margin: 1px 140px;
+    font-size: 5rem;
+    text-decoration: none;
+    padding: 20px 30px;
+    cursor:pointer;
+    font-size: 2rem;
+    border-radius: 10px;
+    font-weight: 900;
+    width:150px;
+}
+.last-png a:Hover
+{
+    color: black;
+    background-color: white;
+    transition: 1s;
+}
+.This-container p
+{
+    padding-left: 28%;
+    align-items: center;
+    padding-top: 70px;
+    font-weight: bolder;
+}
+.This-container h1
+{
+    align-items: center;
+    padding-left: 40%;
+    padding-top: 15px;
+}
+.This-container h2
+{
+    padding-left: 30%;
+}
+.supporters
+{
+    display: flex;
+
+}
+.supporters img
+{
+    width: 300%;
+}
+.aaa
+{
+width: 5%;
+height: 5%;
+
+
+}
+.bbb
+{
+width: 5%;
+height: 5%;
+padding-left: 8%;
+}
+.ccc
+{
+width: 5%;
+height: 5%;
+padding-left: 9%;
+}
+.ddd
+{
+width: 5%;
+height: 5%;
+padding-left: 9%;
+}
+.eee
+{
+width: 5%;
+height: 5%;
+padding-left: 9%;
+}
+.fff
+{
+width: 5%;
+height: 5%;
+padding-left: 9%;
+}
+.ggg
+{
+width: 5%;
+height: 5%;
+padding-left:9%;
+}
+.remain
+{
+    display: flex;
+    padding-left: 20%;
+    padding-top: 5%;
+}
+.remain img
+{
+    width: 300%;
+}
+.hhh
+{
+width: 10%;
+height: 5%;
+padding-left: 9%;
+}
+.iii
+{
+width: 10%;
+height: 5%;
+padding-left: 9%;
+}
+.my-global-cont
+{
+    background-color: rgb(92, 82, 71);
+    color: white;
+}
+.my-global-cont a
+{
+    color: white;
+    text-decoration: none;
+}
+.my-global-cont a:hover
+{
+    color: #a06225;
+    transition: .8s;
+}
+.Last-C
+{
+    display: flex;
+    
+}
+.my-ContainerA
+{
+    padding-left: 10%;
+    padding-top: 90px;
+}
+.my-ContainerA h4 a
+{
+    color: #a06225;
+}
+.my-ContainerA h4 a:hover
+{
+    color: white;
+    transition: .8s;
+}
+.newslatter
+{
+    padding-left: 30%;
+    padding-top: 90px;
+}
+.newslatter a h2
+{
+    padding-left: 50%;
+}
+.newslatter a 
+{
+    padding: 5px;
+    padding-left: 10%;
+}
+.address
+{
+    padding-left: 30%;
+    display: flex;
+    align-items: center;
+}
+.Text
+{
+    background: #a06225;
+    height: 300px;
+    color: white;
+}
+.page_title
+{
+    width: 100%;
+}
+.page_title h1
+{
+    padding-left: 35%;
+    
+}
+.page_title b
+{
+padding-left: 25%;
+width: 100%;
+}
+.Mission
+{
+    width: fit-content;
+    color: #000;
+}
+.Mission h1
+{
+    text-align: center;
+}
+.Mission p
+{
+    padding: 80px;
+    display: block;
+}
+.Mission img
+{
+    width: 90%;
+    padding-left: 70px;
+}
+.Aims
+{
+    display: flex;
+    padding: 50px;
+}
+.text-1
+{
+    width: 100%;
+}
+.text-1 h3
+{
+  font-weight: bolder;
+  font-size: x-large;  
+}
+.text-2 p
+{
+    word-spacing: 15px;
+    
+}
+.text-2 h3
+{
+  font-weight: bolder;
+  font-size: x-large;  
+}
+.text-1 img
+{
+    width: 100%;
+
+}
+.text-2
+{
+    width: 100%;
+}
+.team h2
+{
+    font-weight: bolder;
+    font-size: x-large; 
+    text-align: center;   
+}
+.team
+{
+    display: block;
+    padding: 90px;
+    word-spacing: 15px;
+}
+.imagee img
+{
+width: 100%;
+padding-top: 40px;
+}
+.board
+{
+    width: fit-content;
+}
+.basic h2
+{
+text-align: center;
+font-weight: bolder;
+}
+.basic h3
+{
+    padding: 50px;
+}
+.profiles
+{
+    display: flex;
+}
+.doctor3 
+{
+    padding-bottom: 20px;
+}
+.doctor3 img
+{
+    padding-right: 50px;
+}
+.Question
+{
+    word-spacing: 10px;
+    display: flex;
+}
+.all-cont h2
+{
+    font-weight: bolder;
+    text-align: center;
+    padding-top: 20px;
+}
+.all-cont
+{
+    background: #f5f0eb;
+    padding: 40px;
+}
+.helper img
+{
+width: 40%;
+border-radius: 50%;
+padding-left: 20px;
+padding: 30px;
+}
+.teext
+{
+    width: 100%;
+    margin-left: 13px;
+    align-items: center;
+    padding-top: 5px;
+}
+.further h3
+{
+align-items: center;
+text-align: center;
+}
+.further a
+{
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    background:#ce8236;
+    border-radius: 20px 20px;
+    border: 50px;
+    border-width: 20px;
+    margin: 1px 90px;
+    font-size: 5rem;
+    text-decoration: none;
+    padding: 10px 20px;
+    cursor:pointer;
+    font-size: 2rem;
+    border-radius: 10px;
+    font-weight: 900;
+    width:100px;
+    
+}
+.lpicture img
+{
+    width: 85%;
+    
+    padding-left: 90px;
+    
+}
+.pic1 img
+{
+width: 100%;
+
+}
+.pic2 img
+{
+width: 100%;
+
+}
+.ifoto img
+{
+width: 80%;
+padding-left: 10%;
+height: 50%;
+}
+.more-of-text h3
+{
+    width: 80%;
+padding: 60px;
+padding-left: 10%;
+}
+.more-of-text h3 a
+{
+    color: #a06225;
+    text-decoration: none;
+}
+.more-of-text h3 a:hover
+{
+    text-decoration: underline;
+    transition: .8s;
+}
+.Missionn
+{
+    width: fit-content;
+    color: #000;
+    padding: 50px;
+    word-spacing: 17px;
+    line-height: 20px;
+}
+.Missionn b
+{
+    padding-left: 210px;
+}
+.Missionn h1
+{
+    text-align: center;
+}
+.Missionn p
+{
+    padding: 80px;
+    display: block;
+}
+.Missionn img
+{
+    width: 90%;
+    padding-left: 70px;
+}
+.news
+{
+    display: flex;
+    padding: 30px;
+}
+.tab1
+{
+    width: 100%;
+}
+.tab1 a
+{
+    color:#563d23;
+    text-decoration: none;
+}
+.tab1 a:hover
+{
+    color: #c3773c;
+    transition: .5s;
+}
+.tab2
+{
+    width: 100%;
+    padding-left: 15px;
+}
+.tab2 a
+{
+    color:#563d23;
+    text-decoration: none;
+}
+.tab2 a:hover
+{
+    color: #c3773c;
+    transition: .5s;
+}
+.moreWritings b
+{
+color: #c3773c;
+padding-left: 45%;
+}
+
+.moreWritings b:hover
+{
+    text-decoration: underline;
+    cursor: pointer;
+}
